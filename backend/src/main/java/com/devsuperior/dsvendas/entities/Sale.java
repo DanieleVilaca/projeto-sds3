@@ -30,10 +30,10 @@ public class Sale {
     	 
      }
 
-	public Sale(Long id, Integer visited, Integer dealsInteger, double amount, LocalDate date, Seller seller) {
+	public Sale(Long id, Integer visited, Integer deals, double amount, LocalDate date, Seller seller) {
 		this.id = id;
 		this.visited = visited;
-		this.dealsInteger = dealsInteger;
+		this.deals = deals;
 		this.amount = amount;
 		this.date = date;
 		this.seller = seller;
@@ -55,12 +55,12 @@ public class Sale {
 		this.visited = visited;
 	}
 
-	public Integer getDealsInteger() {
-		return dealsInteger;
+	public Integer getDeals() {
+		return deals;
 	}
 
-	public void setDealsInteger(Integer dealsInteger) {
-		this.dealsInteger = dealsInteger;
+	public void setDeals(Integer deals) {
+		this.deals = deals;
 	}
 
 	public double getAmount() {
