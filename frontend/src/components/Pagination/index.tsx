@@ -22,6 +22,6 @@ const Pagination = ({page,onPageChange}:Props) => {
             </ul>
         </nav>
     </div>
-    )
+    );
 }
 export default Pagination;
